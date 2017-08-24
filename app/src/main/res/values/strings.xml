@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">PiPower</string>
+
+    <string name="title_activity_settings">PiPower Settings</string>
+    <!-- Example General settings -->
+    <string name="pref_host">Host</string>
+    <string name="pref_host_summary">Hostname or IP Address of module</string>
+    <string name="pref_port">Port</string>
+    <string name="pref_port_summary">Module webserver port</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

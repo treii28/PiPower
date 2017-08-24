@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    tools:context="org.wijg.swood.pipower.PiSwitchAdapter">
+
+
+    <Button
+        android:id="@+id/piToggle1"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:text="p#" />
+
+    <Switch
+        android:id="@+id/piStatus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="PiSwitch1"
+        android:theme="@style/ToggleSwitchTheme"
+        android:layout_alignBaseline="@+id/piToggle1"
+        android:layout_alignBottom="@+id/piToggle1"
+        android:layout_toEndOf="@+id/piToggle1" />
+
+    <TextView
+        android:id="@+id/piInfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="(info)"
+        android:layout_alignBaseline="@+id/piStatus1"
+        android:layout_alignBottom="@+id/piStatus1"
+        android:layout_toEndOf="@+id/piStatus1" />
+
+
+</RelativeLayout>
