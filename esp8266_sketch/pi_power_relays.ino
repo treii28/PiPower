@@ -1,4 +1,4 @@
-
+/* DEPRECATED - see rpi_esp.ino */
 #include <Bounce2.h>
 #include <Relay.h>
 #include <ESP8266WiFi.h>
