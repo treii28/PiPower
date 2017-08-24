@@ -10,7 +10,7 @@
 #include <RpiPower.h>
 
 const char* ssid     = "NETGEAR60";
-const char* password = "smilingcheese464";
+const char* password = "*******";
 
 MDNSResponder mdns;
 ESP8266WebServer server ( 80 );
